@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sc-parent" />
+        <module name="scprovider" />
+        <module name="scprovider2" />
+        <module name="scserver" />
+        <module name="scweb" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sc-parent" target="1.8" />
+      <module name="scprovider" target="1.8" />
+      <module name="scprovider2" target="1.8" />
+      <module name="scserver" target="1.8" />
+      <module name="scweb" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
